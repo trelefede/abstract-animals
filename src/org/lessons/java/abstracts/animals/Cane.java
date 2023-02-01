@@ -1,6 +1,6 @@
 package org.lessons.java.abstracts.animals;
 
-public class Cane extends Animale{
+public class Cane extends Animale {
 
 	@Override
 	public void verso() {

@@ -2,6 +2,14 @@ package org.lessons.java.abstracts.animals;
 
 public class Main {
 
+	public static void faiVolare(Volare animale) {
+		animale.vola();
+	}
+
+	public static void faiNuotare(Nuotare animale) {
+		animale.nuota();
+	}
+
 	public static void main(String[] args) {
 
 		Cane pluto = new Cane();
@@ -18,6 +26,9 @@ public class Main {
 		plutoAcquatico.mangia();
 		plutoAcquatico.verso();
 		plutoAcquatico.dormi();
+
+		faiNuotare(plutoAcquatico);
+		faiVolare(plutoVolante);
 
 	}
 
